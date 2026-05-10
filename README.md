@@ -14,32 +14,8 @@ The course material has been completely refreshed with all new weeks. If you'd p
 `git fetch`  
 `git checkout original`
 
-Any questions, please ask me on Udemy or at ed@edwarddonner.com. More details at the top of the course resources [here](https://edwarddonner.com/2024/11/13/llm-engineering-resources/).
+Resources: (https://edwarddonner.com/2024/11/13/llm-engineering-resources/).
 
-### Before you begin
-
-I'm here to help you be most successful with your learning. If you hit any snafus, or if you have any ideas on how I can improve the course, please do reach out in the platform or by emailing me direct (ed@edwarddonner.com). It's always great to connect with people on LinkedIn to build up the community - you'll find me here:  
-https://www.linkedin.com/in/eddonner/  
-And this is new to me, but I'm also trying out X/Twitter at [@edwarddonner](https://x.com/edwarddonner) - if you're on X, please show me how it's done 😂  
-
-Resources to accompany the course, including the slides and useful links, are here:  
-https://edwarddonner.com/2024/11/13/llm-engineering-resources/
-
-And a useful FAQ with common questions is here:  
-https://edwarddonner.com/faq/
-
-## Instant Gratification instructions for Week 1, Day 1 - with Llama 3.2 **not** Llama 3.3
-
-### Important note: see my warning about Llama3.3 below - it's too large for home computers! Stick with llama3.2 - several students have missed this warning...
-
-We will start the course by installing Ollama so you can see results immediately!
-1. Download and install Ollama from https://ollama.com noting that on a PC you might need to have administrator permissions for the install to work properly
-2. On a PC, start a Command prompt / Powershell (Press Win + R, type `cmd`, and press Enter). On a Mac, start a Terminal (Applications > Utilities > Terminal).
-3. Run `ollama run llama3.2` or for smaller machines try `ollama run llama3.2:1b` - **please note** steer clear of Meta's latest model llama3.3 because at 70B parameters that's way too large for most home computers!  
-4. If this doesn't work: you may need to run `ollama serve` in another Powershell (Windows) or Terminal (Mac), and try step 3 again. On a PC, you may need to be running in an Admin instance of Powershell.  
-5. And if that doesn't work on your box, I've set up this on the cloud. This is on Google Colab, which will need you to have a Google account to sign in, but is free:  https://colab.research.google.com/drive/1-_f5XZPsChvfU1sJ0QqCePtIuc55LSdu?usp=sharing
-
-Any problems, please contact me!
 
 ## Before the Setup instructions - a special note
 
@@ -89,7 +65,7 @@ The charges for the exercsies in this course should always be quite low, but if 
 2. For Anthropic: Always use model `claude-3-haiku-20240307` in the code instead of the other Claude models
 3. During week 7, look out for my instructions for using the cheaper dataset
 
-Please do message me or email me at ed@edwarddonner.com if this doesn't work or if I can help with anything. I can't wait to hear how you get on.
+
 
 <table style="margin: 0; text-align: left;">
     <tr>
